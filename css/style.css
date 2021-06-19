@@ -1,0 +1,21 @@
+.container {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background-color: brown;
+  height: 50px;
+}
+nav {
+  background-color: aqua;
+  height: 50px;
+}
+main {
+  background-color: red;
+  height: 200px;
+}
+footer {
+  background-color: blue;
+  height: 50px;
+}
