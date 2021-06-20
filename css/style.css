@@ -1,21 +1,55 @@
+body {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container {
-  width: 550px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 header {
-  background-color: brown;
-  height: 50px;
+  /* background-color: brown; */
+  height: 60px;
+  font-family: "UnifrakturCook", cursive;
+  text-align: center;
+  color: aliceblue;
+}
+h2 {
+  margin-bottom: -35px;
 }
 nav {
-  background-color: aqua;
-  height: 50px;
+  background-color: rgba(56, 61, 61, 0.267);
+  /* height: 50px; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -40px;
 }
 main {
-  background-color: red;
-  height: 200px;
+  /* background-color: red; */
+  height: 300px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0px 150px;
 }
 footer {
-  background-color: blue;
-  height: 50px;
+  background-color: rgba(56, 61, 61, 0.267);
+  /* background-color: blue; */
+  /* height: 50px; */
+  padding: 5px 0px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+nav a {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+h1 {
+  font-size: 60px;
 }
